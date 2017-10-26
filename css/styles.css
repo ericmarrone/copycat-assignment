@@ -7,7 +7,12 @@ body {
     font-size: 1.2em;
 }
 
+img {
+    max-width: 100%;
+}
 
+
+/*****HEADER*****/
 header {
     background-color: #06D6A0;
     padding: 0 20px;
@@ -41,7 +46,7 @@ ul {
 list-style-type: none;
 
 }
-li.nav-item {
+.nav-item {
     display: inline-block;
     line-height: 60px;
     padding: 0 5px;
@@ -51,10 +56,10 @@ li.nav-item {
     font-size: 1em;
 }
 
-img {
-    max-width: 100%;
-}
 
+/*****MAIN*****/
+
+/*Hero Section*/
 .hero-image {
     float: left;
     width: 60%;
@@ -79,14 +84,18 @@ img {
 }
 
 .hero-content h2 {
-    font-size: 2.2em;
+    font-size: 2.1em;
+    padding: 0 5px;
+    margin-left 0;
 }
 
+/*Call to Action Section*/
 .call-to-action {
     background: #ffd166;
     padding: 30px 20px;
 }
 
+/*Products Section*/
 .products {
   background-color: #f2f2f2;
   padding: 30px 20px;
@@ -109,12 +118,14 @@ img {
     padding-left: 0;
 }
 
+/*About Section*/
 .about {
         background-color: #26547C;
         color: white;
         padding: 20px 20px;
         overflow: hidden;
 }
+
 .team {
   margin:0;
 }
@@ -129,6 +140,7 @@ img {
     padding:0;
 }
 
+/****FOOTER****/
 footer {
     background-color: #06D6A0;
     height: 50px;
